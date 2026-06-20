@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import "tailwindcss";
+
+/* @theme {
+    --font-IBM-plex: IBM Plex Sans, sans-serif;
+    --color-azul-900: rgb(27, 36, 64);
+    --color-azul-300: #46518C;
+    --color-cinza: #6D7E8C;
+} */
+
+@theme {
+  --color-page: #030507;
+  --color-surface: #0d1424;
+  --color-surfaceSoft: #111a2e;
+  --color-stroke: #1b2540;
+  --color-primary: #5c63c7;
+  --color-primarySoft: #4f57b8;
+  --color-muted: #96a0b5;
+
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.28);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-page);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .donut {
+    background: conic-gradient(#5c63c7 0 69.5%, #ffffff 69.5% 100%);
+  }
+}
+
+      

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Fintech</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-page text-white min-h-screen">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-white/5 bg-[#080d18]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+        <div class="flex flex-col gap-4 py-4 md:flex-row md:items-center md:justify-between">
+          
+          <div class="flex items-center gap-3">
+            <div class="relative h-20 w-20">
+                <img class=" absolute inset-0 brightness-400 ml-6" src="./images/logo.png" alt="Logo da Fintech" loading="lazy"/>
+            </div>
+            <div>
+              <p class="text-xs tracking-[0.35em] text-slate-300 ml-6">FINTECH</p>
+            </div>
+          </div>
+
+          <nav class="flex flex-wrap items-center gap-2 sm:gap-3 text-sm text-slate-300">
+            <a href="#" class="inline-flex items-center gap-2 rounded-xl bg-primarySoft px-4 py-2 text-white shadow-sm">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+                <path d="M3 10.5L12 3L21 10.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5.5 9.5V20H18.5V9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Início
+            </a>
+
+            <a href="#" class="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-white/5">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+                <path d="M12 12a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M4 20a8 8 0 0116 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              Perfil
+            </a>
+
+            <a href="#" class="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-white/5">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+                <path d="M4 7H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M7 7V5.5A1.5 1.5 0 018.5 4h7A1.5 1.5 0 0117 5.5V7" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M6 7L7 18a2 2 0 002 2h6a2 2 0 002-2l1-11" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+              Gastos
+            </a>
+
+            <a href="#" class="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-white/5">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3v18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M16 7.5c0-1.933-1.79-3.5-4-3.5s-4 1.567-4 3.5S9.79 11 12 11s4 1.567 4 3.5S14.21 18 12 18s-4-1.567-4-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              Receitas
+            </a>
+
+            <a href="#" class="inline-flex items-center gap-2 rounded-xl px-3 py-2 hover:bg-white/5">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+                <path d="M9 7L4 12L9 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 12H14a6 6 0 010 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              Sair
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-10 md:py-14">
+        <div class="mb-10">
+          <p class="text-2xl md:text-4xl font-light tracking-wide">Bem vindo, Marcus</p>
+        </div>
+
+        <section>
+          <h1 class="text-3xl md:text-4xl font-bold mb-8">Dashboard</h1>
+
+          <div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
+            <div class="xl:col-span-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="relative overflow-hidden rounded-2xl bg-surface shadow-card p-6 min-h-35 border border-white/5">
+                  <p class="text-muted text-sm mb-3">Receita</p>
+                  <div class="flex items-end justify-between gap-4">
+                    <h2 class="text-2xl md:text-4xl font-bold tracking-tight">R$ 100.151,64</h2>
+                    <div class="opacity-70">
+                      <svg class="h-14 w-14 text-slate-300" viewBox="0 0 64 64" fill="none">
+                        <path d="M10 40c4-7 9-10 15-10h8c2 0 4 2 4 4v8H24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M37 38l8-7c3-2 6-2 8 0 2 2 2 5 0 7l-10 9c-2 2-4 3-7 3H23l-7 4V40l7-2h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="49" cy="19" r="8" stroke="currentColor" stroke-width="2.5"/>
+                        <path d="M49 15v8M46 18h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative overflow-hidden rounded-2xl bg-surface shadow-card p-6 min-h-35 border border-white/5">
+                  <p class="text-muted text-sm mb-3">Despesas</p>
+                  <div class="flex items-end justify-between gap-4">
+                    <h2 class="text-2xl md:text-4xl font-bold tracking-tight">R$ 30.545,12</h2>
+                    <div class="opacity-70">
+                      <svg class="h-14 w-14 text-slate-300" viewBox="0 0 64 64" fill="none">
+                        <path d="M10 42c4-6 8-9 14-9h9c2 0 4 2 4 4v7H24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M37 40l8-7c2-2 5-2 7 0 2 2 2 5 0 7l-10 8c-2 2-4 3-7 3H23l-7 4V42l7-2h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="40" y="14" width="14" height="9" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                        <path d="M43 18h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative overflow-hidden rounded-2xl bg-surface shadow-card p-6 min-h-35 border border-white/5">
+                  <p class="text-muted text-sm mb-3">Investimentos</p>
+                  <div class="flex items-end justify-between gap-4">
+                    <h2 class="text-2xl md:text-4xl font-bold tracking-tight">R$ 60.547,11</h2>
+                    <div class="opacity-70">
+                      <svg class="h-14 w-14 text-slate-300" viewBox="0 0 64 64" fill="none">
+                        <path d="M11 44c4-6 8-9 14-9h7c3 0 5 2 5 5v5H25l-6 3-8-4V44z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M40 40l6-7 5 4 8-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M41 50h18M41 45v5M47 41v9M53 37v13" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl bg-surface shadow-card p-6 min-h-35 border border-white/5 flex flex-col justify-center">
+                  <p class="text-muted text-sm mb-4">O ultimo valor gasto foi:</p>
+                  <p class="text-lg md:text-xl font-semibold leading-relaxed">
+                    <span class="font-bold">R$ 153,25</span>, com <span class="font-bold">Conta de luz</span><br />
+                    no dia <span class="font-bold">23/04/2026</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="xl:col-span-4">
+              <div class="rounded-2xl bg-surface shadow-card p-6 md:p-7 border border-white/5 h-full min-h-85 md:min-h-105 flex flex-col">
+                <div class="mb-6">
+                  <div class="flex items-start justify-between gap-4">
+                    <div>
+                      <p class="text-muted text-sm mb-3">Saldo</p>
+                      <h2 class="text-2xl md:text-4xl font-bold tracking-tight">R$ 69.606,52</h2>
+                    </div>
+
+                    <div class="opacity-70">
+                      <svg class="h-14 w-14 text-slate-300" viewBox="0 0 64 64" fill="none">
+                        <path d="M17 26h27c5 0 9 4 9 9v6c0 7-6 13-13 13H24c-7 0-13-6-13-13v-4c0-6 5-11 11-11h3" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M23 26v-3c0-5 4-9 9-9h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="45" cy="20" r="8" stroke="currentColor" stroke-width="2.5"/>
+                        <path d="M45 16v8M42 19h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="20" cy="38" r="2" fill="currentColor"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex-1 flex items-center justify-center">
+                  <div class="relative">
+                    <div class="donut h-52 w-52 md:h-60 md:w-60 rounded-full flex items-center justify-center">
+                      <div class="h-28 w-28 md:h-32 md:w-32 rounded-full bg-page flex items-center justify-center">
+                        <span class="text-3xl md:text-4xl font-bold text-white">69,50%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="border-t border-white/10"></footer>
+  </div>
+</body>
+</html>
