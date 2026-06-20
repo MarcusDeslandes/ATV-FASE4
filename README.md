@@ -4,8 +4,6 @@
 
 ### Um dashboard financeiro moderno, responsivo e elegante construído com **HTML** + **Tailwind CSS**
 
-<img src="./assets/preview.png" alt="Preview do projeto Fintech Dashboard" width="100%" />
-
 <br />
 
 <p align="center">
