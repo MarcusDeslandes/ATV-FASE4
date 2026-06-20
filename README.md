@@ -17,9 +17,6 @@
   <a href="#-visão-geral">Visão Geral</a> •
   <a href="#-preview">Preview</a> •
   <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-como-executar">Como Executar</a> •
-  <a href="#-estrutura">Estrutura</a> •
-  <a href="#-customização">Customização</a>
 </p>
 
 </div>
